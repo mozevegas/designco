@@ -1,8 +1,79 @@
-html {
-  text-size-adjust: 100%;
-}
-
 body {
   margin: 0;
-  font: 16px / 1 sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*#wrapper {
+  width: 85%;
+  margin: auto 20px;
+}*/
+
+#menu {
+  background-color: lightgray;
+  border-top: 5px solid orangered;
+  display: flex;
+  align-items: center;
+}
+
+#menu a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+#menu a:hover {
+  background: darkgray;
+}
+
+#logo {
+  width: 80%;
+  height: auto;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+li {
+  display: block;
+  width: 8em;
+    color: orangered;
+
+}
+
+#info {
+  text-align: center;
+  line-height: 90%;
+  color: #666;
+  margin-top: 40px;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#images img {
+  margin: .5em;
+  border: 4px solid #999;
+}
+
+#blurbs {
+  display: flex;
+  justify-content: flex-start;
+  font-size: .75em;
+}
+
+#blurbs p {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 20px;
+  width: 80%;
 }
